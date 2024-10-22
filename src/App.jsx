@@ -1,5 +1,6 @@
 import Example from "./components/Example";
 import ClassComponent from "./components/ClassComponent";
+import ParentComp from "./components/ParentComp";
 
 function App() {
   
@@ -12,6 +13,8 @@ function App() {
       <Example name={'Niyatha'}/>
 
       <ClassComponent age={12} />
+
+        <ParentComp/>
 
       
     </>

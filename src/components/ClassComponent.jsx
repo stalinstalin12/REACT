@@ -3,7 +3,7 @@
  class ClassComponent extends Component{
     render(){
         return(
-            <h1> age={this.props.age}</h1>
+            <h1>age={this.props.age}</h1>
         )
     }
  }

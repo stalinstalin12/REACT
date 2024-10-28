@@ -2,7 +2,7 @@ import {BrowserRouter as Router,Routes,Route, Link} from "react-router-dom";
 import About from './BasicRouting/About';
 import Add from './BasicRouting/Add';
 import './BasicRouting/Index.css'
-import './contact/Contact'
+import Contact from './contact/Contact'
 
 function Index(){
     return(

@@ -7,7 +7,8 @@ function Add(){
     <form >
         <input type="text" placeholder='Name' />
         <input type="number" placeholder='Number' />
-        <input type="password" placeholder='Password' />
+        <input type="password" placeholder='Password' />  <br />    <br />
+        <button type="submit" style={{borderRadius:"20px",backgroundColor:"green", height:"30px", width:"100px"}}>ADD</button>
 
     </form>
     </>

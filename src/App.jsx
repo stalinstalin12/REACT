@@ -3,6 +3,7 @@ import ClassComponent from "./components/ClassComponent";
 import ParentComp from "./components/ParentComp";
 import Login from "./components/conditional_components/Login";
 import Index from "./components/routers/Index";
+import ConvertedText from "./components/higherOrderComponent/HigherOrder";
 function App() {
   
 
@@ -19,8 +20,8 @@ function App() {
         <ParentComp/> 
         <Login />*/}
        
-        <Index />
-
+        {/* <Index /> */}
+        <ConvertedText text={"STALIN"}/>
       
     </>
   )

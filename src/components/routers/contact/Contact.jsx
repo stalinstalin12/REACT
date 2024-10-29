@@ -11,7 +11,6 @@ function Contact(){
                     <ul>
                         <li><Link to={'/Contact/Mail'} style={{color:"white",textDecoration:"none"}}>Mail</Link></li>
                         <li><Link to={'/Contact/Phone'} style={{color:"white",textDecoration:"none"}}>Phone</Link></li>
-                        {/* <li><Link to={'/contact'} style={{color:"white",textDecoration:"none"}}>Contact</Link></li> */}
     
                         
                     </ul>

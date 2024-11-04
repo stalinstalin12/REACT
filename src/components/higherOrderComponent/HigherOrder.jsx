@@ -9,5 +9,5 @@ const withLowerCase=(WrappedComponent)=>{
 
 const MyComponent=({text})=><div>{text}</div>
 
-const ConvertedText=withLowerzCase(MyComponent);
+const ConvertedText=withLowerCase(MyComponent);
 export default ConvertedText

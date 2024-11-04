@@ -3,7 +3,10 @@ import ClassComponent from "./components/ClassComponent";
 import ParentComp from "./components/ParentComp";
 import Login from "./components/conditional_components/Login";
 import Index from "./components/routers/Index";
+
 import ConvertedText from "./components/higherOrderComponent/HigherOrder";
+import UseEffectComponent from "./components/hooks/useEffect";
+import UseEffectComponent1 from "./components/hooks/useEffect1";
 function App() {
   
 
@@ -21,7 +24,9 @@ function App() {
         <Login />*/}
        
         {/* <Index /> */}
-        <ConvertedText text={"STALIN"}/>
+        {/* <ConvertedText text={"STALIN"}/> */}
+
+        <UseEffectComponent1/>
       
     </>
   )

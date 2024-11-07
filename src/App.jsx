@@ -7,6 +7,8 @@ import Index from "./components/routers/Index";
 import ConvertedText from "./components/higherOrderComponent/HigherOrder";
 import UseEffectComponent from "./components/hooks/useEffect";
 import UseEffectComponent1 from "./components/hooks/useEffect1";
+import UseCallbackComp from "./components/hooks/useCallBack";
+import UserList from "./components/hooks/useMemo";
 function App() {
   
 
@@ -26,7 +28,10 @@ function App() {
         {/* <Index /> */}
         {/* <ConvertedText text={"STALIN"}/> */}
 
-        <UseEffectComponent1/>
+        {/* <UseEffectComponent1/> */}
+
+        {/* <UseCallbackComp/> */}
+        <UserList/>
       
     </>
   )

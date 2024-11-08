@@ -9,6 +9,7 @@ import UseEffectComponent from "./components/hooks/useEffect";
 import UseEffectComponent1 from "./components/hooks/useEffect1";
 import UseCallbackComp from "./components/hooks/useCallBack";
 import UserList from "./components/hooks/useMemo";
+import UseContext from "./components/hooks/UseContext/useContext";
 function App() {
   
 
@@ -31,8 +32,8 @@ function App() {
         {/* <UseEffectComponent1/> */}
 
         {/* <UseCallbackComp/> */}
-        <UserList/>
-      
+        {/* <UserList/> */}
+       <UseContext/>
     </>
   )
 }
